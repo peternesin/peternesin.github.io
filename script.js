@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const email = $('email'); email.textContent = DATA.email; email.href = 'mailto:'+DATA.email;
   const phone = $('phone'); phone.textContent = DATA.phone; phone.href = 'tel:'+DATA.phone.replace(/[^\\d+]/g,'');
   const linkedin = $('linkedin'); linkedin.href = DATA.linkedin;
-  $('resume').href = DATA.resumeTech;
+  $('resume').href = DATA.resume;
   $('ucity').href = DATA.ucity;
   $('portfolioPDF').href = DATA.portfolioPDF;
 
