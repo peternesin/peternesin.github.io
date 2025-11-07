@@ -6,17 +6,17 @@ const DATA = {
   phone: "301-452-3784",
   location: "Chicago, IL",
   linkedin: "https://linkedin.com/in/peternesin",
-  resumeTech: "assets/pdfs/Peter_Nesin_Resume_Technical_OnePage.pdf",
+  resumeTech: "assets/pdfs/PeterNesinResume.pdf",
   resumeNarr: "assets/pdfs/Peter_Nesin_Resume_Narrative_OnePage.pdf",
   portfolioPDF: "assets/pdfs/Portfolio.pdf",
   projects: [
     {
       title: "University City Public Art Installation — “Let’s Meet Here Again”",
-      year: "2024",
+      year: "2025",
       blurb: "Designed, fabricated, and installed three large-scale CNC-cut sculptures; managed proposal, budget, CAM/CNC, finishing, logistics, and installation.",
       tags: ["SolidWorks", "CNC", "Project Mgmt", "Woodworking", "Metalwork"],
       links: [{ label: "Process/Report PDF", href: "assets/pdfs/UCity_Final_Documentation.pdf" }],
-      image: "" // optional e.g., "assets/images/public_art.jpg"
+      image: "assets/images/public_art_1.jpg" // optional e.g., ""
     },
     {
       title: "Pole-Climbing Robot",
@@ -24,7 +24,7 @@ const DATA = {
       blurb: "Mechanical & fabrication lead. Owned SolidWorks design; laser-cut + 3D printed prototypes; integrated Raspberry Pi; completed full climb test.",
       tags: ["SolidWorks", "Laser Cut", "3D Print", "Raspberry Pi"],
       links: [{ label: "Portfolio PDF", href: "assets/pdfs/Portfolio.pdf" }],
-      image: ""
+      image: "assets/images/polerobot"
     },
     {
       title: "Cilia-Bots Research (WUSEF / Bayly Lab)",
@@ -32,7 +32,7 @@ const DATA = {
       blurb: "Bio-inspired mechatronic models of cilia. Iterative CAD, flexible 3D printing, simple electronics and soldering; poster + presentation.",
       tags: ["SolidWorks", "Soft Robotics", "3D Print", "Electronics"],
       links: [{ label: "Portfolio PDF", href: "assets/pdfs/Portfolio.pdf" }],
-      image: ""
+      image: "assets/images/ciliaposter"
     }
   ],
   experience: [
