@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Peter Nesin – Portfolio</title>
+  <meta name="description" content="Portfolio of Peter Nesin — Mechanical Engineer (CAD, Prototyping, CNC, Public Installations)">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero__grid">
+      <div>
+        <h1 id="name">Peter Nesin</h1>
+        <p id="title" class="subtitle">Mechanical Engineer</p>
+        <p id="tagline" class="muted">CAD • Prototyping • CNC Manufacturing • Public Installations</p>
+        <div class="contact">
+          <a id="loc" class="chip"></a>
+          <a id="email" class="chip"></a>
+          <a id="phone" class="chip"></a>
+          <a id="linkedin" class="chip" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+      <div class="cta">
+        <a id="resumeTech" class="btn">Resume (Technical)</a>
+        <a id="resumeNarr" class="btn btn--ghost">Resume (Narrative)</a>
+        <a id="portfolioPDF" class="btn btn--outline">Portfolio PDF</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button class="tab active" data-tab="projects">Projects</button>
+      <button class="tab" data-tab="experience">Experience</button>
+      <button class="tab" data-tab="skills">Skills</button>
+      <button class="tab" data-tab="education">Education</button>
+    </nav>
+
+    <section id="projects" class="grid"></section>
+    <section id="experience" class="grid hidden"></section>
+    <section id="skills" class="grid hidden"></section>
+    <section id="education" class="grid hidden"></section>
+  </main>
+
+  <footer class="footer">
+    <div class="container small muted">© <span id="year"></span> Peter Nesin</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
