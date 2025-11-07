@@ -6,8 +6,8 @@ const DATA = {
   phone: "301-452-3784",
   location: "Chicago, IL",
   linkedin: "https://linkedin.com/in/peternesin",
-  resumeTech: "assets/pdfs/PeterNesinResume.pdf",
-  resumeNarr: "assets/pdfs/Peter_Nesin_Resume_Narrative_OnePage.pdf",
+  resume: "assets/pdfs/PeterNesinResume.pdf",
+  ucity: "assets/pdfs/UCity_Final_Documentation.pdf",
   portfolioPDF: "assets/pdfs/Portfolio.pdf",
   projects: [
     {
@@ -32,7 +32,7 @@ const DATA = {
       blurb: "Bio-inspired mechatronic models of cilia. Iterative CAD, flexible 3D printing, simple electronics and soldering; poster + presentation.",
       tags: ["SolidWorks", "Soft Robotics", "3D Print", "Electronics"],
       links: [{ label: "Portfolio PDF", href: "assets/pdfs/Portfolio.pdf" }],
-      image: "assets/images/ciliaposter.pdf"
+      image: "assets/images/ciliaposter.jpg"
     }
   ],
   experience: [
@@ -94,8 +94,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const email = $('email'); email.textContent = DATA.email; email.href = 'mailto:'+DATA.email;
   const phone = $('phone'); phone.textContent = DATA.phone; phone.href = 'tel:'+DATA.phone.replace(/[^\\d+]/g,'');
   const linkedin = $('linkedin'); linkedin.href = DATA.linkedin;
-  $('resumeTech').href = DATA.resumeTech;
-  $('resumeNarr').href = DATA.resumeNarr;
+  $('resume').href = DATA.resumeTech;
+  $('ucity').href = DATA.ucity;
   $('portfolioPDF').href = DATA.portfolioPDF;
 
   const projRoot = $('projects');
