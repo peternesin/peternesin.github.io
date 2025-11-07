@@ -24,7 +24,7 @@ const DATA = {
       blurb: "Mechanical & fabrication lead. Owned SolidWorks design; laser-cut + 3D printed prototypes; integrated Raspberry Pi; completed full climb test.",
       tags: ["SolidWorks", "Laser Cut", "3D Print", "Raspberry Pi"],
       links: [{ label: "Portfolio PDF", href: "assets/pdfs/Portfolio.pdf" }],
-      image: "assets/images/IMG_9714.JPG"
+      image: "assets/images/polerobot.jpg"
     },
     {
       title: "Cilia-Bots Research (WUSEF / Bayly Lab)",
